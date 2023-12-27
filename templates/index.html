@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <title>Фотоархив</title>
+</head>
+<body>
+<h1>Фотоархив</h1>
+<ul>
+    {% for template in template_objects %}
+        <li><a href="{{template.name}}">{{template.album}}</a></li>
+    {% endfor %}
+</ul>
+</body>
+</html>

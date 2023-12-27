@@ -1,0 +1,9 @@
+boto3
+botocore
+Jinja2
+jmespath
+s3transfer
+six
+MarkupSafe
+python-dateutil
+urllib3
